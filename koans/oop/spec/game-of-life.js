@@ -46,5 +46,7 @@ describe('Game of Life', function () {
 		gameOfLife.tick();
 
 		expect(gameOfLife.isCellAlive(3, 4)).toBe(true);
+
+        console.log(gameOfLife);
 	});
 });
