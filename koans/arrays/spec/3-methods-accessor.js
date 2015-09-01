@@ -6,6 +6,12 @@ describe('Arrays - accessor methods', function () {
 		expect(first).toEqual([1,2,3]);
 		expect(second).toEqual([4,5,6]);
 	});
+
+	xit('2 - should understand string join', function () {
+		var array = '12345';
+		expect(array.join()).toBe('1,2,3,4,5');
+	});
+
 	it('2 - should understand join', function () {
 		var array = [1, 2, 3, 4, 5];
 		expect(array.join('-')).toBe('1-2-3-4-5');

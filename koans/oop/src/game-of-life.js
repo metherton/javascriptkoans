@@ -14,7 +14,9 @@ SAMURAIPRINCIPLE.GameOfLife = function() {
         }
     }());
 
-
+    this.getCells = function() {
+        return cells;
+    };
 
 
     this.isCellAlive = function(row, column) {

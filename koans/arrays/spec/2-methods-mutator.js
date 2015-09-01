@@ -61,4 +61,33 @@ describe('Mutator methods', function () {
 			};
 		expect([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]).toEqual(array.sort(compareFunction));
 	});
+    it('10 - should understand splice', function () {
+        var array = [1, 4, 8];
+        expect(array.splice(0 ,1)).toEqual([1]);
+        expect(array).toEqual([4,8]);
+    });
+
+    it('11 - should understand Array.prototype.push', function() {
+       var beginArray = [2, 3, 5];
+       var newArray = [];
+       expect(Array.prototype.push.apply(newArray, [beginArray.shift()])).toBe(1);
+    });
+
+    it('12 - should understand Array.prototype.concat', function() {
+        var a1 = [2, 3, 5];
+        var a2 = [6,7,8];
+        expect(Array.prototype.concat.apply([], [a1, a2])).toEqual([2,3,5,6,7,8]);
+    });
+
+    it('13 - should understand splice operation', function() {
+        var arr = [8,7,5,6];
+        expect((arr.length / 2) - 1).toBe(1);
+        expect(arr.length / 2).toBe(2);
+
+    })
+
+    it('14 - should understand concat', function() {
+        expect([].concat([1,2], [3,4])).toEqual([1,2,3,4])
+    })
+
 });

@@ -82,4 +82,13 @@ describe('Arrays - basics', function () {
 		expect(iterationsFor).toBe(1001);
 		expect(iterationsForIn).toBe(1);
 	});
+
+    xit('10 - should understand concat', function() {
+
+        var arr1 = [1,3,5];
+        var arr2 = [2,4,6];
+        expect(Array.prototype.push.apply(arr1,[7])).toEqual([1,3,5,7]);
+//        expect(arr1.push(arr2)).toEqual([1,3,5,2,4,6]);
+
+    });
 });

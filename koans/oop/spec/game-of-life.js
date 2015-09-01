@@ -49,4 +49,11 @@ describe('Game of Life', function () {
 
         console.log(gameOfLife);
 	});
+
+	it('should be possible to update model directly', function() {
+		var cells1 = gameOfLife.getCells();
+		cells1['2_3'] = true;
+		var cells2 = gameOfLife.getCells();
+	})
+
 });

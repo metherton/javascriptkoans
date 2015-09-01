@@ -61,6 +61,30 @@ describe('function expression and function declaration', function () {
 		expect(result).toBe(6);
 		expect(typeof factorial).toBe('undefined');
 	});
+
+
+	it('5 - should understand function expression and declaration', function () {
+		var f = factorial;
+		var result;
+		try {
+			result = f(3);
+		} catch (error) {
+			result = 'error';
+		}
+		expect(result).toBe(6);
+		expect(typeof factorial).toBe('function');
+
+
+		function factorial(number) {
+			return number ? number * factorial(number - 1) : 1;
+		}
+
+
+	});
+
+
+
+
 	it('6 - should understand the impact of anonymous functions on stack traces', function () {
 		//uncomment the line below and run the test; check the call stack
 		//debugger;

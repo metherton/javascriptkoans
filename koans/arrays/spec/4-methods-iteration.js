@@ -26,6 +26,23 @@ describe('Arrays - iteration methods', function () {
 		});
 		expect(result).toBe(15);
 	});
+
+	it('3a - should understand forEach amd splice', function () {
+		var array = ['martin', 'john', 'martin','rick', 'willie', 'martin'], result = 0;
+		var val,i;
+		array.forEach(removeElement);
+
+		function removeElement(currentValue, index) {
+			if (currentValue === 'martin') {
+				array.splice(index, 1);
+			}
+		}
+
+		expect(array).toEqual(['john', 'rick', 'willie']);
+	});
+
+
+
 	it('4 - should understand forEach with this', function () {
 		var array = [1, 2, 3, 4, 5, 4, 3, 2, 1], result = 0;
 		array.forEach(function (element) {
