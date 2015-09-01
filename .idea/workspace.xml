@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="72470996-1380-4f0c-bd48-784d884d0daf" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/koans/functions-1/spec/6-mergesort.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/koans/arrays/spec/1-basics.js" afterPath="$PROJECT_DIR$/koans/arrays/spec/1-basics.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/koans/functions-2/spec/1-closure.js" afterPath="$PROJECT_DIR$/koans/functions-2/spec/1-closure.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/koans/functions-1/spec/1-function-expression-function-declaration.js" afterPath="$PROJECT_DIR$/koans/functions-1/spec/1-function-expression-function-declaration.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/koans/arrays/spec/2-methods-mutator.js" afterPath="$PROJECT_DIR$/koans/arrays/spec/2-methods-mutator.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/koans/functions-2/spec/2-module.js" afterPath="$PROJECT_DIR$/koans/functions-2/spec/2-module.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/koans/functions-2/spec/3-method-as-callback.js" afterPath="$PROJECT_DIR$/koans/functions-2/spec/3-method-as-callback.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/koans/arrays/spec/3-methods-accessor.js" afterPath="$PROJECT_DIR$/koans/arrays/spec/3-methods-accessor.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/koans/arrays/spec/4-methods-iteration.js" afterPath="$PROJECT_DIR$/koans/arrays/spec/4-methods-iteration.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/koans/functions-1/SpecRunner.html" afterPath="$PROJECT_DIR$/koans/functions-1/SpecRunner.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/koans/observable/src/eventDispatcher.js" afterPath="$PROJECT_DIR$/koans/observable/src/eventDispatcher.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/koans/oop/spec/game-of-life.js" afterPath="$PROJECT_DIR$/koans/oop/spec/game-of-life.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/koans/oop/src/game-of-life.js" afterPath="$PROJECT_DIR$/koans/oop/src/game-of-life.js" />
-    </list>
+    <list default="true" id="72470996-1380-4f0c-bd48-784d884d0daf" name="Default" comment="" />
     <ignored path="JavaScriptKoans.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -862,12 +848,12 @@
       <workItem from="1438180494603" duration="308000" />
       <workItem from="1438720752270" duration="975000" />
       <workItem from="1439063825816" duration="145000" />
-      <workItem from="1441134638866" duration="1753000" />
+      <workItem from="1441134638866" duration="1869000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="117201000" />
+    <option name="totallyTimeSpent" value="117317000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="709" extended-state="6" />
