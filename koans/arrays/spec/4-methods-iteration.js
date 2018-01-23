@@ -100,4 +100,13 @@ describe('Arrays - iteration methods', function () {
 		expect(result).toEqual([1,NaN,NaN]);
 		//discuss with your pair
 	});
+	it('12 - should understand Map', function() {
+		var myMap = new Map([['first', {label: 'label1'}], ['second', {label: 'label2'}]]);
+		expect(myMap.get('first')).toEqual({label: 'label1'});
+		var labelString;
+		myMap.forEach(function(value, key) {
+			labelString += value.label;
+		});
+		expect(labelString).toBe('label1,label2');
+	});
 });

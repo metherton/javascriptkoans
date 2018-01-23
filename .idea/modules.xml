@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/JavaScriptKoans.iml" filepath="$PROJECT_DIR$/JavaScriptKoans.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javascriptkoans.iml" filepath="$PROJECT_DIR$/javascriptkoans.iml" />
     </modules>
   </component>
 </project>
-
